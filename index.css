@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+    /* background-color:aliceblue */
+}
+
+.navbar{
+    background-color: #111111;
+    color:#ffffff;
+    height: 60px;
+    display: flex;      /*we use display:flex to make all the elements in the current div appear in one line*/
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border{
+    border: 2px solid black;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+
+
+
+/* box1 */
+
+.logo{
+    background-image: url("amazon-logo.png");
+    background-size: cover;
+    height: 100%;
+    width:100%;
+}
+
+/* .logo img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+} */
+
+.navlogo{
+    height: 56px;
+    width: 150px;
+}
+
+
+/* box2 */
+
+.del1{
+    color: beige; 
+    font-size: 0.8rem;
+    margin-left:0.8rem;
+}
+
+.del2{
+    margin-left:0.5rem;
+    margin-top:0.2rem;
+}
+
+.del3{
+    color: white;
+    font: size 1rem;
+    margin-top:0.3rem;
+    margin-left:0.5rem;
+}
+
+.del-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* box3 */
+
+.navsearch{
+    display: flex;
+    height:60px;
+    width:700px;
+    align-items: center; /*to vertically align*/
+    justify-content:center; /*horizontally align*/
+    border-radius: 4px;  /* to curve the border */
+    /* background-color: blanchedalmond; */
+}
+
+.search-select{
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    background-color:#e6e6e6;
+    color: #0f1111;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+    font-weight:bold;
+}
+
+.search-input{
+    height: 38px;
+    width: 500px;
+    border:none;
+    font-weight: bold;
+    font-size: 16px;    
+}
+
+.search-icon{
+    background-color:rgb(243, 189, 83);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:none;
+    font-size: 1.2rem; /*using font-size to change size of icon also !!*/
+}
+
