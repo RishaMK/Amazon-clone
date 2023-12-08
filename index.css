@@ -11,15 +11,15 @@
     height: 60px;
     display: flex;      /*we use display:flex to make all the elements in the current div appear in one line*/
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
 }
 
 .border{
-    border: 2px solid black;
+    border: 1.5px solid black;
 }
 
 .border:hover{
-    border: 2px solid white;
+    border: 1.5px solid white;
 }
 
 
@@ -99,7 +99,7 @@
 
 .search-input{
     height: 38px;
-    width: 500px;
+    width: 600px;
     border:none;
     font-weight: bold;
     font-size: 16px;    
@@ -118,3 +118,58 @@
     font-size: 1.2rem; /*using font-size to change size of icon also !!*/
 }
 
+
+/* box4 */
+.lang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang-select{
+    height: 30px;
+    width: 45px;
+    background-color: #0f1111;
+    color: #ffffff;
+    border:none;
+}
+
+.lang-icon{
+    font-size: 2rem;
+}
+
+/* box5 */
+
+.accs{
+    align-items: center;
+    justify-content: center;
+}
+
+.accs-select{
+    background-color: #111111;
+    color: #ffffff;
+    border:none;
+}
+
+.styl1{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.styl2{
+    font-weight:bolder;
+    font-size: 14px;
+}
+
+/* box7 */
+
+
+.cart{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.cart-icon{
+    font-size:2rem;
+}
