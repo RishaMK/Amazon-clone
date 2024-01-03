@@ -28,7 +28,7 @@
 /* box1 */
 
 .logo{
-    background-image: url("amazon_logo.png");
+    background-image: url("images/amazon_logo.png");
     background-size:cover;
     height: 64px;
 }
@@ -204,7 +204,7 @@
 }
 
 .heroo{
-    background-image: url("hero_image.jpg");
+    background-image: url("images/hero_image.jpg");
     height: 350px;
     background-size: cover;
     justify-content: center;  /*for justify:content to work, you need to do display:flex remember!! */
